@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return "‘Hi! Selamat Datang di Website Laravel";
-});
+}); //komentar
 
 Route::get('/about', function () {
     return "NIS: 24993/2107.063, Nama: Arsya Mayreno Arnaldo, Kelas: X-RPB";
